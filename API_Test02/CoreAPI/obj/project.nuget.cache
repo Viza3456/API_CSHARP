@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YDvxp+lZtjq8+3OLh0nrbG8dllC6eFDLDicyeYcdWNYVCRr22sKiOegy/IEVmu8nS0u7nrNY+RmFxOncioxO7Q==",
+  "success": true,
+  "projectFilePath": "/Users/macos/Documents/API C#/API_Test02/CoreAPI/CoreAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/macos/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

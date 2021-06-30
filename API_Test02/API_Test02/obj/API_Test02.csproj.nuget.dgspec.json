@@ -1,0 +1,208 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/macos/Documents/API C#/API_Test02/API_Test02/API_Test02.csproj": {}
+  },
+  "projects": {
+    "/Users/macos/Documents/API C#/API_Test02/API_Test02/API_Test02.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/macos/Documents/API C#/API_Test02/API_Test02/API_Test02.csproj",
+        "projectName": "API_Test02",
+        "projectPath": "/Users/macos/Documents/API C#/API_Test02/API_Test02/API_Test02.csproj",
+        "packagesPath": "/Users/macos/.nuget/packages/",
+        "outputPath": "/Users/macos/Documents/API C#/API_Test02/API_Test02/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macos/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/macos/Documents/API C#/API_Test02/CoreAPI/CoreAPI.csproj": {
+                "projectPath": "/Users/macos/Documents/API C#/API_Test02/CoreAPI/CoreAPI.csproj"
+              },
+              "/Users/macos/Documents/API C#/API_Test02/DataStore.EF/DataStore.EF.csproj": {
+                "projectPath": "/Users/macos/Documents/API C#/API_Test02/DataStore.EF/DataStore.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/macos/Documents/API C#/API_Test02/CoreAPI/CoreAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/macos/Documents/API C#/API_Test02/CoreAPI/CoreAPI.csproj",
+        "projectName": "CoreAPI",
+        "projectPath": "/Users/macos/Documents/API C#/API_Test02/CoreAPI/CoreAPI.csproj",
+        "packagesPath": "/Users/macos/.nuget/packages/",
+        "outputPath": "/Users/macos/Documents/API C#/API_Test02/CoreAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macos/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/macos/Documents/API C#/API_Test02/DataStore.EF/DataStore.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/macos/Documents/API C#/API_Test02/DataStore.EF/DataStore.EF.csproj",
+        "projectName": "DataStore.EF",
+        "projectPath": "/Users/macos/Documents/API C#/API_Test02/DataStore.EF/DataStore.EF.csproj",
+        "packagesPath": "/Users/macos/.nuget/packages/",
+        "outputPath": "/Users/macos/Documents/API C#/API_Test02/DataStore.EF/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macos/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/macos/Documents/API C#/API_Test02/CoreAPI/CoreAPI.csproj": {
+                "projectPath": "/Users/macos/Documents/API C#/API_Test02/CoreAPI/CoreAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

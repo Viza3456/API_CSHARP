@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{72F557EE-5D3C-43AE-8324-FEADEEDBC6D7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API_Test02/Controller/TicketController.cs">
+    <Files>
+      <File FileName="API_Test02/Controller/TicketController.cs" Line="69" Column="40" />
+      <File FileName="CoreAPI/Model/Ticket.cs" />
+      <File FileName="DataStore.EF/BugeContext.cs" />
+      <File FileName="API_Test02/Controller/ProjectController.cs" />
+      <File FileName="API_Test02/appsettings.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="API_Test02" expanded="True">
+            <Node name="API_Test02" expanded="True">
+              <Node name="Controller" expanded="True">
+                <Node name="TicketController.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="CoreAPI" expanded="True">
+              <Node name="Model" expanded="True" />
+            </Node>
+            <Node name="DataStore.EF" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API__Test02 PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
